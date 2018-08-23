@@ -63,11 +63,12 @@ input[type=submit]:hover {
 
 
 .header-background {
+
 	background: url(../images/face3.jpg);
 	opacity:0;
-  animation: pop-in 2.0s ease-out forwards;
-  animation-delay: 2.0s;
-	border-radius: 50%;
+    animation: pop-in 2.0s ease-out forwards;
+    animation-delay: 2.0s; 
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 280px 20px;
@@ -89,7 +90,6 @@ input[type=submit]:hover {
 }
 .header {
 
-
 	@media #{$med} {
 
 		&__container{
@@ -101,12 +101,12 @@ input[type=submit]:hover {
 
       	}
 
-
 		&__title{display: none
 		}
 
 		&--sticky{
 		position:fixed;
+		z-index: 1;
 		top: 0;
 		left:0;
 		width:100%;
@@ -119,9 +119,9 @@ input[type=submit]:hover {
 				align-items: center;
 			}
 			&__title {display: block}
-		}
+			}
 
-	}
+		}
 
     }
 
@@ -189,11 +189,13 @@ opacity:0;
 }
 
 .portfolio{
+
 	margin: 0rem auto;
 
 }
 
 .portfolio-piece{
+
 
 	padding: 1rem;
 	width:100%;
@@ -242,6 +244,14 @@ opacity:0;
 		padding: 4rem 0}
 }
 
+.other-workslist{
+
+	margin: 0rem auto;
+
+
+}
+
+
 .other-works{
 
 	&__aticle-title{
@@ -252,6 +262,54 @@ opacity:0;
 	@media #{$med} {
 		&__article-title {max-width: 26rem}
 	}
+}
+
+gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+
+    padding: 0 6px;
+    float: center;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table-row;
+    clear: both;
 }
 .contact {
 

@@ -8,7 +8,7 @@
 	text-decoration: none;
 	transition: all .25s ease-in-out;
 	&:hover {
-		background: lighten($link, 3%);
+		background: lighten($link, 10%);
 	}
 }
 .header-background, section {

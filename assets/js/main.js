@@ -13,3 +13,7 @@ for (let item of anchorlinks) { // relitere
 }
 
 
+var c=new Image("../images/blogbg.jpeg");
+c.onload=function(){
+   //render the form
+}

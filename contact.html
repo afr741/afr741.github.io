@@ -43,24 +43,20 @@
 
 
 		<div class="contact-container ">
-  <form action="action_page.php">
+  <form name "contactform"  method ="post" action="sent_form_email.php">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="first_name" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="last_name" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-    
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-        <option value="other">Other</option>
-    </select>
+    <label for="email">Email Address</label>
+    <input type="text" id="country" name="email" placeholder="Your email..">
+
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Dont forget to include your contact info.." style="height:200px"></textarea>
+    <textarea id="subject" name="comments" placeholder="Dont forget to include your contact info.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
 
@@ -71,7 +67,7 @@
 	
 	<footer class = "container">
 		<ul class = "footer-list">
-			<li class = "footer-list__item"> ©Anushervon Rakhmatov 2018. All Rights Reserved></li>
+			<li class = "footer-list__item"> ©Anushervon Rakhmatov 2018. All Rights Reserved</li>
 		
 			<ul>
 	</footer>
