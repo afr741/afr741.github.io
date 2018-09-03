@@ -470,7 +470,7 @@ a {
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out; }
   .button:hover {
-    background: #ee9572; }
+    background: #cc0000; }
 
 .header-background, section {
   margin-bottom: 2rem; }
@@ -665,7 +665,7 @@ a {
   margin-bottom: 0; }
   @media only screen and (min-width: 768px) {
     #other-works {
-      padding: 3rem 0; } }
+      padding: 4rem 0; } }
   @media only screen and (min-width: 1024px) {
     #other-works {
       background-position: top 15% right;
