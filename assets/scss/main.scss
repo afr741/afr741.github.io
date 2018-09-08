@@ -191,6 +191,9 @@ opacity:0;
 .portfolio{
 
 	margin: 0rem auto;
+	opacity:0;
+    animation: pop-in 2.0s ease-out forwards;
+    animation-delay: 2.0s; 
 
 }
 

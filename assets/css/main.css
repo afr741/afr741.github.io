@@ -621,7 +621,12 @@ a {
       padding: 9rem 0 7rem; } }
 
 .portfolio {
-  margin: 0rem auto; }
+  margin: 0rem auto;
+  opacity: 0;
+  -webkit-animation: pop-in 2.0s ease-out forwards;
+  animation: pop-in 2.0s ease-out forwards;
+  -webkit-animation-delay: 2.0s;
+  animation-delay: 2.0s; }
 
 .portfolio-piece {
   padding: 1rem;
