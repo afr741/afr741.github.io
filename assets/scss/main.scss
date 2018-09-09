@@ -189,7 +189,8 @@ opacity:0;
 }
 
 .portfolio{
-
+	position: relative;
+	z-index: -1;
 	margin: 0rem auto;
 	opacity:0;
     animation: pop-in 2.0s ease-out forwards;
