@@ -93,8 +93,7 @@ input[type=submit]:hover {
 	@media #{$med} {
 
 		&__container{
-
-	
+		
 			display: flex;
 			justify-content: flex-center;
 			padding: 2rem 1 3rem;
@@ -106,7 +105,7 @@ input[type=submit]:hover {
 
 		&--sticky{
 		position:fixed;
-		z-index: 1;
+		z-index: 999;
 		top: 0;
 		left:0;
 		width:100%;
@@ -114,6 +113,7 @@ input[type=submit]:hover {
 		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 		.header {
 			&__container{
+
 				padding: 1rem;
 				justify-content: space-between;
 				align-items: center;
@@ -149,6 +149,7 @@ input[type=submit]:hover {
 
 
 .hero{
+	
 	padding: 2rem 1.5rem;
 
 	&__headline {
@@ -189,17 +190,13 @@ opacity:0;
 }
 
 .portfolio{
-	position: relative;
-	z-index: -1;
+	
 	margin: 0rem auto;
-	opacity:0;
-    animation: pop-in 2.0s ease-out forwards;
-    animation-delay: 2.0s; 
+	
 
 }
 
 .portfolio-piece{
-
 
 	padding: 1rem;
 	width:100%;
@@ -214,11 +211,13 @@ opacity:0;
 	margin-bottom: 2rem;
 	&:last-child {margin-bottom:0}
 	&__title {
+	
 		margin-bottom: .5rem;
 		text-decoration: none;
 
 	}
 	&__title, &__tags {
+		
 		text-shadow: 0 2px 2px rgba(0,0,0,0.6);
 	}
 	@media #{$med}{

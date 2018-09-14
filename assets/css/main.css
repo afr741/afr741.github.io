@@ -553,7 +553,7 @@ a {
     display: none; }
   .header--sticky {
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
     width: 100%;
@@ -621,14 +621,7 @@ a {
       padding: 9rem 0 7rem; } }
 
 .portfolio {
-  position: relative;
-  z-index: -1;
-  margin: 0rem auto;
-  opacity: 0;
-  -webkit-animation: pop-in 2.0s ease-out forwards;
-  animation: pop-in 2.0s ease-out forwards;
-  -webkit-animation-delay: 2.0s;
-  animation-delay: 2.0s; }
+  margin: 0rem auto; }
 
 .portfolio-piece {
   padding: 1rem;
