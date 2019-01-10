@@ -1,4 +1,4 @@
-
+ n
 
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Source+Sans+Pro:200,700,900');
 
@@ -210,6 +210,9 @@ opacity:0;
 	justify-content: center;
 	margin-bottom: 2rem;
 	&:last-child {margin-bottom:0}
+	&:hover {
+		background: darken(red, 10%);
+	}
 	&__title {
 	
 		margin-bottom: .5rem;
