@@ -1,4 +1,3 @@
- n
 
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Source+Sans+Pro:200,700,900');
 
@@ -64,14 +63,15 @@ input[type=submit]:hover {
 
 .header-background {
 
-	background: url(../images/face3.jpg);
+	background: url(../images/anushbg.jpg);
 	opacity:0;
     animation: pop-in 2.0s ease-out forwards;
     animation-delay: 2.0s; 
 	
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 280px 20px;
+	background-size: contain;
+	background-position: 40rem 20px;
 	padding: 2rem 1rem;
 	@media #{$med} {
 		padding: 0 1rem 8rem;
