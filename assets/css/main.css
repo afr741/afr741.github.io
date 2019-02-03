@@ -274,7 +274,7 @@ a {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.333%;
     flex: 0 0 58.333%;
-    max-width: 48.333%; }
+    max-width: 90%; }
   .lrg--col-6 {
     padding: 0 1rem;
     -webkit-box-flex: 0;
@@ -518,7 +518,7 @@ a {
     background-color: #45a049; }
 
 .header-background {
-  background: url(../images/anushbg.jpg);
+  background-color: white;
   opacity: 0;
   -webkit-animation: pop-in 2.0s ease-out forwards;
   animation: pop-in 2.0s ease-out forwards;
@@ -584,6 +584,11 @@ a {
       position: relative;
       width: 13rem;
       height: auto; } }
+
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .hero {
   padding: 2rem 1.5rem;
