@@ -61,6 +61,7 @@ input[type=submit]:hover {
 }
 
 
+
 .header-background {
 
 	background-color: white;
@@ -149,7 +150,8 @@ input[type=submit]:hover {
 
 .hero-container{
 
-	display: flex;
+	display:flex;
+    align-items: center;
 }
 .hero{
 	
@@ -163,6 +165,10 @@ input[type=submit]:hover {
 
 
 
+}
+.hero-container img{
+    flex-grow:0;
+    flex-shrink:0;
 }
 .animate-pop-in {
 opacity:0;

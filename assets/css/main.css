@@ -588,7 +588,10 @@ a {
 .hero-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .hero {
   padding: 2rem 1.5rem;
@@ -596,6 +599,12 @@ a {
   .hero__headline {
     font-size: 2rem;
     margin-bottom: 1rem; }
+  .hero .hero-container img {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; }
   .hero .animate-pop-in {
     opacity: 0;
     -webkit-animation: pop-in 2.0s ease-out forwards;
