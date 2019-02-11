@@ -518,15 +518,17 @@ a {
     background-color: #45a049; }
 
 .header-background {
-  background: url(../images/face3.jpg);
+  background: url(../images/anushbg.jpg);
   opacity: 0;
   -webkit-animation: pop-in 2.0s ease-out forwards;
   animation: pop-in 2.0s ease-out forwards;
   -webkit-animation-delay: 2.0s;
   animation-delay: 2.0s;
   background-repeat: no-repeat;
+  background-size: contain;
   background-size: cover;
-  background-position: 280px 20px;
+  background-size: 60%;
+  background-position: right;
   padding: 2rem 1rem; }
   @media only screen and (min-width: 768px) {
     .header-background {

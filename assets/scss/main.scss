@@ -64,14 +64,20 @@ input[type=submit]:hover {
 
 .header-background {
 
-	background: url(../images/face3.jpg);
+
+	background: url(../images/anushbg.jpg);
+
 	opacity:0;
     animation: pop-in 2.0s ease-out forwards;
     animation-delay: 2.0s; 
+
 	
 	background-repeat: no-repeat;
+	background-size: contain;
 	background-size: cover;
-	background-position: 280px 20px;
+
+	background-size: 60%;
+	background-position: right;
 	padding: 2rem 1rem;
 	@media #{$med} {
 		padding: 0 1rem 8rem;
@@ -145,8 +151,6 @@ input[type=submit]:hover {
 		
 	}
 }
-
-
 
 
 .hero{
