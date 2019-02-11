@@ -518,7 +518,7 @@ a {
     background-color: #45a049; }
 
 .header-background {
-  background-color: white;
+  background: url(../images/anushbg.jpg);
   opacity: 0;
   -webkit-animation: pop-in 2.0s ease-out forwards;
   animation: pop-in 2.0s ease-out forwards;
@@ -584,14 +584,6 @@ a {
       position: relative;
       width: 13rem;
       height: auto; } }
-
-.hero-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
 
 .hero {
   padding: 2rem 1.5rem;

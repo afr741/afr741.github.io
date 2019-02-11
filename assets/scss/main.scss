@@ -64,7 +64,7 @@ input[type=submit]:hover {
 
 .header-background {
 
-	background-color: white;
+	background: url(../images/anushbg.jpg);
 	opacity:0;
     animation: pop-in 2.0s ease-out forwards;
     animation-delay: 2.0s; 
@@ -148,15 +148,11 @@ input[type=submit]:hover {
 }
 
 
-.hero-container{
 
-	display:flex;
-    align-items: center;
-}
+
 .hero{
 	
 	padding: 2rem 1.5rem;
-
 
 	&__headline {
 
