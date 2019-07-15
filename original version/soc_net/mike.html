@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> The Circle
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet"> 
+    <script src="js/addFriendMike.js"></script>
+   <link rel="stylesheet"  href="css/main.css">
+     <link rel="stylesheet"  href="css/responsive.css">
+    <meta name="viewport" content="width= device-width, intial-scale=1.0">
+    
+  </head>
+  <body> 
+    <header> 
+     
+     <a href = "index" id="logo">
+      <h1>The Circle </h1>
+      <h2> Connect with your circle of friends. Build new relationships.</h2>
+        </a>
+    <nav id="styling"> 
+       <ul>
+         <li><a href="members" class="selected">Home</a></li>
+         <li><a href="members">Members</a></li>
+         <li><a href="contact">Contact</a></li>
+      </ul> 
+    </nav>
+    </header>
+      <div id="wrapper" >
+	  <section id="sec">
+      <p id="center">Welcome to Mike's Profile Page</p>
+         <ul id="s" ><li> <img src="img/mike.jpg" alt="Mike's face" id="sizing"></li>  </ul>
+           <li><ul id="styling"  >
+                  <li >Birthday: 08-05-1985</li>
+             <li >Address: Village Mall</li>
+             <li >Phone: 346 - 8446</li>
+              <li><a href="mike-location"><p>Location</p></a></li>
+			 
+              </ul>
+           </li>
+    </section>
+		<section id="sec2">
+		<p>My Friends</p>
+   <ul id="s2" >
+           
+         </ul>	
+             <h1>People You May Know</h1>
+             
+             <form action = "/addMike" method ="post">
+             	Add Friend Here:   
+             	<select name="friendList">
+             		<option selected disabled>Choose a friend to add</option>
+             	<option value="Jake Candar">Jake Candar</option>
+             		<option value="Miley Cyr">Miley Cyr</option>
+             		<option value="Mike Mits">Mike Mits</option>
+             		<option value="Mohamad Hamadi">Mohamad Hamadi</option>
+             		<option value="Khloe Ka">Khloe Ka</option>
+             		<option value="Brandon Kelvin">Brandon Kelvin</option>
+             		<option value="Amy Williams">Amy Williams</option>
+             		<option value="Josh Davis">Josh Davis</option>
+             		<option value="Cameron Knight">Cameron Knight</option>
+             		<option value="Lilly Singh">Lilly Singh</option>
+             		
+             	</select>
+             
+             	
+ 				<input type ="submit" value="Submit"></input>
+                          
+			
+            </form>
+            
+            <form action = "/deleteMike" method ="post">
+             	Delete Friend Here:
+             	<select id = "friendDelete" name="friendList1">
+             		<option selected disabled>Choose a friend to delete</option>
+             		
+             	
+             	</select>
+             	
+             	<input type ="submit" value="Submit"></input>
+             	</form>
+			</section>
+				  
+				  
+		<section id="sec3">
+           <li><ul id="styling"  >
+                 <ul><p><strong>My Schedule</strong></p></ul>
+				 <li><p>Monday</p></li>
+				 <li>Lectures</li>
+				 <li>Tennis</li>
+				
+				 <li><p>Tuesday</p></li>
+				 <li>Working at Commons</li>
+			  <li>Swimming</li>
+			
+				 
+				  <li><p>Wednesday</p></li>
+				 <li>Lectures</li>
+				 <li>Gym</li>
+				 
+				  <li><p>Thursday</p></li>
+				<li>Working at Commons</li>
+				 <li>Assignments</li>
+				 
+				  
+				  <li><p>Friday</p></li>
+				 <li>Lectures</li>
+				 <li>Gym</li>
+             </ul>
+				 
+      </section>
+				 
+        <footer>
+         &copy; 2016 The Circle
+        </footer>
+      </section>
+      </div>
+ </body>
+ </html>

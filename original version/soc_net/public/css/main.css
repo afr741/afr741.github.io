@@ -1,0 +1,382 @@
+/*******************************
+            GENERAL
+********************************/
+
+body {
+ font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  padding: 0 0;
+  margin: 0;
+  }
+
+body p { 
+ margin: 0 20px; 
+ font-size: 1em;
+}
+#wrapper {
+  margin: 0 auto;
+  padding: 0 25%;
+ 
+}
+
+#wrapper3{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  
+}
+#members3{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#members3 li {
+  float: left;
+  width: 27%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#members3 li  img, p {
+  margin: 0;
+  padding: 10%;
+  padding-left: 17%;
+  padding-bottom: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+#wrapper2 {
+  margin: 0 auto;
+  padding: 0 25%;
+  background-color: yellow;
+  
+ 
+}
+#wrapper2 li {
+  
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  
+  color: #bdc3c7;
+ 
+}
+#wrapper2 ul {
+  background-color: yellow;
+}
+a {
+  text-decoration: none;
+}
+p{
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+#piclogo {
+ margin-left: 500px;
+  margin-top: 20px;
+}
+img{
+  max-width: 100%;
+}
+
+
+#pic{
+ width: 100%; 
+ 
+}
+
+/*******************************
+            HEADING
+********************************/
+
+header {
+ 
+ margin: 0 0 30px 0;
+ padding: 5px 0 0 0 ;
+ width: 100%; 
+  
+}
+#logo {
+ text-align: center;
+  margin: 0;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 2.1em;
+  font-weight: normal;
+  line-height: 0.9em;
+  
+}
+
+h2 {
+  
+  font-size: 1.8em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*******************************
+           NAVIGATION
+********************************/
+
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0; 
+   
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+padding: 5px 0;  
+
+}
+
+nav a {
+ font-weight: 750;
+  padding: 14px 12px;
+  
+}
+
+/*******************************
+           FOOTER
+********************************/
+
+footer { 
+  font-size: 0.8em;
+  text-align: center;
+  
+  padding-top: 50px;
+  color: #CCCCCC;
+  clear: both;
+}
+
+/*******************************
+            COLORS
+********************************/
+/* site body */
+body {
+  background-color: #FFFFFF;
+  color: #999;
+}
+
+/* red header */
+header {
+  background: #FF2030;
+  border-color: #220000;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+#link {
+  color: #F20000;
+}
+
+/* logo text */
+h1,h2 {
+  color:#FFFFFF;
+}
+
+/* nav background */ 
+nav{
+  background: #DD0000;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #FFFFFF;
+}
+
+/* selected nav link */
+nav a.selected , nav a:hover {
+  color: #990000;
+}
+
+#members{
+  margin: 0;
+  padding: 0;
+ 
+
+}
+#members li {
+ 
+  width: 25%;
+  margin: 2%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+  list-style: none;
+}
+
+#members li  p{
+  margin: 0;
+  padding: 2.5%;
+  font-size: 0.75em;
+  color: #000000;
+}
+
+#profile{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#profile li {
+  width:66%;
+  margin: 2%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+  list-style: none;
+}
+
+#profile li  p{
+  margin: 0;
+  padding: 2.5%;
+  font-size: 0.75em;
+  color: #000000;
+}
+
+#friends{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#friends li {
+  width: 35%;
+  margin: 2%;
+  background-color:  #80ff00;
+  color: #bdc3c7;
+  list-style: none;
+}
+
+#friends li  p{
+  margin: 0;
+  text-align: center;
+  padding: 2.5%;
+  font-size: 0.75em;
+  color: #00C303;
+}
+
+
+#friendlist li{
+  background-color: #e60000;
+}
+
+#friendlist2 li{
+  background-color: #1a75ff;
+}
+
+#friendlist3 li{
+  background-color: #80ff00;
+}
+
+#friendlist4 li{
+  background-color: #800080;
+}
+
+/*******************************
+            Profile page
+********************************/
+#sizing { 
+ width: 50%; 
+  margin: 0 5px 0 5px;
+  padding: 0px 3px;
+}
+
+#sec{
+ background-color: yellow;
+  list-style: none;
+  margin: 5px 5px;
+padding: 7px 5px;
+
+}
+#sec2{
+ background-color: lightgreen;
+  list-style: none;
+  margin: 5px 5px;
+padding: 7px 5px;
+}
+#sec3{
+ background-color: pink;
+  list-style: none;
+  margin: 5px 5px;
+padding: 7px 5px;
+}
+ 
+
+}
+styling{
+  list-style: none;
+}
+
+
+#center{
+  text-align: center;
+  list-style: none;
+}
+#s{
+  list-style: none;
+ float: left;
+  clear: left;
+  padding: 3px 5px;
+}
+#s2{
+  list-style: none;
+ float: top;
+  
+  padding: 3px 5px;
+}
+
+.profile-photo{
+display: block;
+max-width: 150px;
+margin: 0 auto 30px;
+border-radius:30%;  
+}
+/*******************************
+            Location page
+********************************/
+
+#sty{
+  background-color: yellow;
+  
+  width:90%;
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+}
+#newsty{
+ float: left;
+  clear: left; 
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  margin: 5px 5px 5px 2px;
+}
+
+td, th {
+    border: 1px solid #0fb6bf;
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #caf5f7;
+}
+
+

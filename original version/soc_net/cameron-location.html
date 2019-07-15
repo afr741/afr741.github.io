@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+       
+    <title> The Circle
+    </title>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBkQJtbFLgiTF8TgIlEble8V-wUZkOvnog&sensor=true"></script>  
+     <script src="js/locations/cameron_location.js"></script> 
+    
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet"> 
+     <link rel="stylesheet"  href="css/main.css">
+     <link rel="stylesheet"  href="css/responsive.css">
+    <meta name="viewport" content="width= device-width, intial-scale=1.0">
+  <link rel="stylesheet"  href="css/location.css">
+  </head>
+  <body> 
+    <header> 
+     
+     <a href = "index" id="logo">
+      <h1>The Circle </h1>
+      <h2> Connect with your circle of friends. Build new relationships.</h2>
+        </a>
+    <nav> 
+       <ul>
+          <li><a href="members">Home</a></li>
+         <li><a href="members">Members</a></li>
+         <li><a href="contact">Contact</a></li>
+      </ul> 
+    </nav>
+    </header>
+  
+    
+    <div>
+         <section id="sty">
+            
+           <p> <img src="img/cameron.jpg" alt="brandon's face" height="59" width="50"></p>
+           <p > Cameron</p>
+            
+         </section>
+     
+     </div> 
+     
+    
+     <form action = "/locCameron" method ="post">
+             	Update Location Here:   
+             	<select name="locations">
+             		<option selected disabled>Choose a new location </option>
+             			<option value="Current Location">Current Location</option>
+             		<option value="Downtown">Downtown</option>
+				     <option value="The Rooms">The Rooms</option>
+				     <option value="MUN Center">MUN Center</option>
+				     <option value="Avalon Mall">Avalon Mall</option>
+				     <option value="Village Mall">Village Mall</option>
+             	
+             	</select>
+ 				<input type ="submit" value="Submit"></input>
+     </form>
+     
+    <div id="map">
+    </div>
+ 
+
+    <table id="loctable">
+        <tr>
+      <th>Name</th>
+        <th>Location</th>
+          
+      </tr>
+    </table>
+
+        <footer>
+         &copy; 2016 The Circle
+        </footer>
+ </body>
+ </html>   
+      
+ 

@@ -1,0 +1,149 @@
+//	VARS
+$xsml: "only screen and (min-width : 320px)";
+$small: "only screen and (min-width : 360px)";
+$med: "only screen and (min-width : 768px)";
+$lrg: "only screen and (min-width : 1024px)";
+$xlrg: "only screen and (min-width : 1400px)";
+
+$screen : (
+	xsml: 320px,
+	sml: 375px,
+	med: 678px,
+	lrg: 1024px,
+	xlrg: 1440px
+);
+
+.container {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+	
+	&--flex {
+  	    @extend .container;
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+		align-items: flex-start;
+	}
+    
+    &--flex0 {
+        @extend .container;
+        margin: 0;
+		display: flex;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+		align-items: flex-start;
+    }
+}
+
+.row {
+	@extend .container--flex;
+    &--spaced {
+        margin-bottom: 2rem;
+        @media #{$med} {
+            margin-bottom: 4rem;
+        }
+        
+        @media #{$lrg} {
+            margin-bottom: 6rem;
+        }
+    }
+}
+
+.lrg, .med, .sml, .x-sml {padding: 0 1rem;}
+
+
+.col-4 { flex: 0 0 100%;}
+.col-2 { flex: 0 0 50%;}
+
+.offset { margin-left: 50%;}
+
+
+//    GRID COLUMNS
+    
+  @media #{$med} {
+  	.med, .sml{
+	&--col-8 {padding: 0 1rem; flex: 0 0 100%; max-width:100%;}
+	&--col-7 {padding: 0 1rem; flex: 0 0 87.50%; max-width:87.50%;}
+	&--col-6 {padding: 0 1rem; flex: 0 0 75%; max-width:75%;}
+	&--col-5 {padding: 0 1rem; flex: 0 0 62.5%; max-width:62.50%;}
+	&--col-4 {padding: 0 1rem; flex: 0 0 50%; max-width:50%;}
+	&--col-3 {padding: 0 1rem; flex: 0 0 37.5%; max-width:37.5%;}
+	&--col-2 {padding: 0 1rem; flex: 0 0 25%; max-width:25%;}
+	&--col-1 {padding: 0 1rem; flex: 0 0 12.5%; max-width:12.5%;}
+	
+	// offset
+	&--offset-8 {padding: 0 1rem; margin-left: 100%;}
+	&--offset-7 {padding: 0 1rem; margin-left: 87.50%;}
+	&--offset-6 {padding: 0 1rem; margin-left: 75%;}
+	&--offset-5 {padding: 0 1rem; margin-left: 62.5%;}
+	&--offset-4 {padding: 0 1rem; margin-left: 50%;}
+	&--offset-3 {padding: 0 1rem; margin-left: 37.5%;}
+	&--offset-2 {padding: 0 1rem; margin-left: 25%;}
+	&--offset-1 {padding: 0 1rem; margin-left: 12.5%;}
+}
+}
+
+@media #{$lrg}{
+    .lrg {
+	&--col-12 {padding: 0 1rem; flex: 0 0 100%; max-width: 100%;}
+	&--col-11 {padding: 0 1rem; flex: 0 0 91.667%; max-width: 91.667%;}
+	&--col-10 {padding: 0 1rem; flex: 0 0 83.333%; max-width: 83.33%;}
+	&--col-9 {padding: 0 1rem; flex: 0 0 75%; max-width: 75%;}
+	&--col-8 {padding: 0 1rem; flex: 0 0 66.667%; max-width: 66.667%;}
+	&--col-7 {padding: 0 1rem; flex: 0 0 58.333%; max-width: 48.333%;}
+	&--col-6 {padding: 0 1rem; flex: 0 0 50%; max-width: 50%;}
+	&--col-5 {padding: 0 1rem; flex: 0 0 41.667%; max-width: 41.67%;}
+	&--col-4 {padding: 0 1rem; flex: 0 0 33.333%; max-width: 33.333%;}
+	&--col-3 {padding: 0 1rem; flex: 0 0 25%; max-width: 25%;}
+	&--col-2 {padding: 0 1rem; flex: 0 0 16.667%; max-width: 16.667%;}
+	&--col-1 {padding: 0 1rem; flex: 0 0 8.333%; max-width: 8.333%;}
+	
+	// Offset
+	&--offset-12 {padding: 0 1rem; margin-left: 100% !important;}
+	&--offset-11 {padding: 0 1rem; margin-left: 91.667% !important;}
+	&--offset-10 {padding: 0 1rem; margin-left: 83.333% !important;}
+	&--offset-9  {padding: 0 1rem; margin-left: 75% !important;}
+	&--offset-8  {padding: 0 1rem; margin-left: 66.667% !important;}
+	&--offset-7  {padding: 0 1rem; margin-left: 58.333% !important;}
+	&--offset-6  {padding: 0 1rem; margin-left: 50% !important;}
+	&--offset-5  {padding: 0 1rem; margin-left: 41.667% !important;}
+	&--offset-4  {padding: 0 1rem; margin-left: 33.333% !important;}
+	&--offset-3  {padding: 0 1rem; margin-left: 25% !important;}
+	&--offset-2  {padding: 0 1rem; margin-left: 16.667% !important;}
+	&--offset-1  {padding: 0 1rem; margin-left: 8.333% !important;}
+}   
+}
+
+@media #{$xlrg}{
+    .xlrg {
+	&--col-12 {padding: 0 1rem; flex: 0 0 100%; max-width: 100%;}
+	&--col-11 {padding: 0 1rem; flex: 0 0 91.667%; max-width: 91.667%;}
+	&--col-10 {padding: 0 1rem; flex: 0 0 83.333%; max-width: 83.33%;}
+	&--col-9 {padding: 0 1rem; flex: 0 0 75%; max-width: 75%;}
+	&--col-8 {padding: 0 1rem; flex: 0 0 66.667%; max-width: 66.667%;}
+	&--col-7 {padding: 0 1rem; flex: 0 0 58.333%; max-width: 58.333%;}
+	&--col-6 {padding: 0 1rem; flex: 0 0 50%; max-width: 50%;}
+	&--col-5 {padding: 0 1rem; flex: 0 0 41.667%; max-width: 41.67%;}
+	&--col-4 {padding: 0 1rem; flex: 0 0 33.333%; max-width: 33.333%;}
+	&--col-3 {padding: 0 1rem; flex: 0 0 25%; max-width: 25%;}
+	&--col-2 {padding: 0 1rem; flex: 0 0 16.667%; max-width: 16.667%;}
+	&--col-1 {padding: 0 1rem; flex: 0 0 8.333%; max-width: 8.333%;}
+	
+	// Offset
+	&--offset-12 {padding: 0 1rem; margin-left: 100% !important;}
+	&--offset-11 {padding: 0 1rem; margin-left: 91.667% !important;}
+	&--offset-10 {padding: 0 1rem; margin-left: 83.333% !important;}
+	&--offset-9  {padding: 0 1rem; margin-left: 75% !important;}
+	&--offset-8  {padding: 0 1rem; margin-left: 66.667% !important;}
+	&--offset-7  {padding: 0 1rem; margin-left: 58.333% !important;}
+	&--offset-6  {padding: 0 1rem; margin-left: 50% !important;}
+	&--offset-5  {padding: 0 1rem; margin-left: 41.667% !important;}
+	&--offset-4  {padding: 0 1rem; margin-left: 33.333% !important;}
+	&--offset-3  {padding: 0 1rem; margin-left: 25% !important;}
+	&--offset-2  {padding: 0 1rem; margin-left: 16.667% !important;}
+	&--offset-1  {padding: 0 1rem; margin-left: 8.333% !important;}
+}   
+}
+
+

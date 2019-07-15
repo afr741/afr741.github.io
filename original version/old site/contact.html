@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title> Anush's Portfolio</title>
+ <meta name = "viewpoint" content = "width=device-width, user-scalable=no,
+ initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0">
+ 
+
+ <!--Font Awesome-->
+
+<link rel = "stylesheet href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--styles-->
+ <link rel ="stylesheet" href="assets/css/main.css">
+ <div class = "header">
+ 	
+ <div>
+ </head>
+<body> 
+
+	<div class="header-background ">
+	<header class = "header header--sticky">
+		
+		<div class = "container header__container">
+
+			
+
+			<a href="index.html"><img id="header-logo" src="assets/images/logo.png" alt="logo" ></a>
+			<a href = "index.html" class="button header__button" id = "header-buttons"> About</a><br>
+			<a href = "index.html#port-title" class="button header__button" id = "header-buttons"> My projects</a><br>
+			<a href = "https://drive.google.com/file/d/15lDKvoQtnumE4cjRbjmDP0JtaTeI-j90/view?usp=sharing" class="button  header__button" id = "header-buttons">Resume</a><br>
+
+			<a href = "index.html#other-works" class="button  header__button" id = "header-buttons"> Other works</a><br>
+			<a href = "contact.html" class="button  header__button" id = "header-buttons"> Contact Me </a><br>
+
+
+		</div>
+	</header>
+
+
+		<div class="contact-container ">
+  <form name "contactform"  method ="post" action="sent_form_email.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="first_name" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="last_name" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="country" name="email" placeholder="Your email..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="comments" placeholder="Dont forget to include your contact info.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+		
+ 
+	
+	<footer class = "container">
+		<ul class = "footer-list">
+			<li class = "footer-list__item"> ©Anushervon Rakhmatov 2018. All Rights Reserved</li>
+		
+			<ul>
+	</footer>
+ 	
+</body>
+</html>

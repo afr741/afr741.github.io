@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px){
+	
+	#wrapper {
+  margin: 0 0;
+  padding: 0 0;
+ 
+}
+#members3 li {
+	margin-left: 16%;
+	width: 60%;
+}
+#members3 li  img, p {
+	 margin: 0;
+  padding: 10%;
+  font-size: 0.75em;
+  color: #bdc3G7;
+	}
+
+
+
+header h1, h2 {
+	font-size: 1.0em;
+}
+}
+
