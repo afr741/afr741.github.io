@@ -1,6 +1,6 @@
-# afr741.github.io
-## My web-portfolio 
+# https://afr741.github.io  | https://anoosher.com
+## A web portfolio containing a short intro, list of my works and projects and a contact form.
 
-## Using HTML,CSS/SASS, JAVASCRIPT, BOOTSTRAP AND PHP.
+## Technologies used:  HTML,CSS/SASS, JAVASCRIPT, BOOTSTRAP AND PHP.
 
 ## Hosted on AWS EC2 instance.
