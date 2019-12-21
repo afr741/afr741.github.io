@@ -1,0 +1,18 @@
+Freecell
+--------
+
+- Freecell written in Js, HTML and jquery.
+##Implemented Features:
+-Free cells, foundations, cascade columns
+-Welcome, play and End Screen.
+-Game logic rules
+o Random deal to lay out cards in starting cascade columns
+o Clicking on “open” card in a column, will move to open ‘freecell’ if one is available
+o Ability to drag a single card to new legal position
+o Cannot move card to illegal position
+o Few Sound effects
+
+##Features to be Implemented:
+-JSON I/O. (Perhaps storing card numbers inside a json parsing them inside js etc).
+-Possible to add an animation in the beginning to shuffle cards.
+-Additional design work.
