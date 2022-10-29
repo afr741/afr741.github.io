@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="38px" viewBox="0 0 24 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow/left</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow_tab/2" transform="translate(-19.000000, -28.000000)" fill="#131415" fill-rule="nonzero">
+            <g id="Chevron-left" transform="translate(19.000000, 28.000000)">
+                <polygon id="arrow" points="23.2308694 2.94326429 20.2430368 0 0.261904762 19 20.2430368 38 23.2308694 34.8496843 6.24303684 19"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
