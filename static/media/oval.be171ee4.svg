@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="114px" viewBox="0 0 115 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>7F77D56F-4E74-48B5-9C01-677D00453219</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-2.2%" y="-1.9%" width="104.4%" height="103.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Beta-1-version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02.Intro" transform="translate(-295.000000, -534.000000)" fill-rule="nonzero">
+            <g id="1" filter="url(#filter-1)" transform="translate(77.000000, 275.000000)">
+                <g id="GRADIENT-BOTTOM" transform="translate(0.000000, 171.000000)">
+                    <g id="global-icon/plus" transform="translate(222.500000, 90.000000)">
+                        <g id="icon_plus">
+                            <g>
+                                <path d="M0,53.055 C0,23.7535326 23.7535326,0 53.055,0 C82.3564674,0 106.11,23.7535326 106.11,53.055 C106.11,82.3564674 82.3564674,106.11 53.055,106.11 C23.7658707,106.080235 0.0297653984,82.3441293 0,53.055 Z M101.115,53.055 C101.115,26.5121949 79.5978051,4.995 53.055,4.995 C26.5121949,4.995 4.995,26.5121949 4.995,53.055 C4.995,79.5978051 26.5121949,101.115 53.055,101.115 C79.5854686,101.085241 101.085241,79.5854686 101.115,53.055 L101.115,53.055 Z" id="Shape" fill="#FFFFFF"></path>
+                                <circle id="Oval" fill="#000000" opacity="0.55" cx="53.055" cy="53.055" r="48.006"></circle>
+                                <polygon id="Path" fill="#FFFFFF" points="68.661 55.944 68.607 50.274 55.755 50.274 55.755 37.503 50.085 37.476 50.085 50.274 37.449 50.274 37.476 55.944 50.085 55.944 50.112 68.607 55.782 68.661 55.782 55.944"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

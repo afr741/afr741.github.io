@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="336px" height="95px" viewBox="0 0 336 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>84D1D399-F88F-446B-8324-60C6FEBA134C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M292.541631,0 C295.855339,-6.08718376e-16 298.541631,2.6862915 298.541631,6 L298.540797,29.878 L299.029256,29.5224836 L320.932065,45.4876252 L299.029256,61.4527668 L298.540797,61.096 L298.541631,77 C298.541631,80.3137085 295.855339,83 292.541631,83 L6.02979728,83 C2.71608878,83 0.0297972767,80.3137085 0.0297972767,77 L0.0297972767,6 C0.0297972767,2.6862915 2.71608878,6.08718376e-16 6.02979728,0 L292.541631,0 Z" id="path-1"></path>
+        <filter x="-2.8%" y="-9.6%" width="107.1%" height="124.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.184276661 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Beta-1-version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="03.Section_Intro" transform="translate(-688.000000, -128.000000)">
+            <g id="Group-2-Copy-5" transform="translate(697.000000, 136.000000)">
+                <g id="label_2-copy-2">
+                    <g id="hotspot" transform="translate(0.458369, 0.000000)">
+                        <g id="Combined-Shape" transform="translate(160.480931, 41.500000) rotate(-180.000000) translate(-160.480931, -41.500000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#131415" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
